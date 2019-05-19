@@ -1,26 +1,31 @@
 {
-  "name": "news_scrape",
+  "name": "Mongo-Scraper",
   "version": "1.0.0",
-  "description": "scrape news from website",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btp589/news_scrape.git"
+    "url": "git+https://github.com/SpiderRam/Mongo-Scraper.git"
   },
-  "author": "Bao Phan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/btp589/news_scrape/issues"
+    "url": "https://github.com/SpiderRam/Mongo-Scraper/issues"
   },
-  "homepage": "https://github.com/btp589/news_scrape#readme",
+  "homepage": "https://github.com/SpiderRam/Mongo-Scraper#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "mongoose": "^5.5.1"
+    "mongoose": "^5.5.7",
+    "npm": "^6.9.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   }
 }
